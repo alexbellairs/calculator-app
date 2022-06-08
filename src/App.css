@@ -6,6 +6,7 @@ h1 {
 }
 .calculator {
   border: 1px solid #ccc;
+  background-color: rgba(128, 128, 128);
   border-radius: 15px;
   position: absolute;
   top: 50%;
@@ -29,9 +30,9 @@ button {
   background-color: #fff;
   border-radius: 15px;
   border: 1px solid #c4c4c4;
-  background-color: transparent;
+  background-color: rgba(128, 128, 128, 0.75);
   font-size: 20px;
-  color: #333;
+  color: rgb(0, 0, 0);
   background-image: linear-gradient(
     to bottom,
     transparent,
@@ -45,7 +46,7 @@ button {
   text-shadow: 0 1px rgba(255, 255, 255, 0.4);
 }
 button:hover {
-  background-color: #eaeaea;
+  background-color: #fffefe;
 }
 .operator {
   color: #337cac;
